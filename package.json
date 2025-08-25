@@ -7,7 +7,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"json-server": "json-server --watch server/db.json --port 5000"
+		"json-server": "json-server --watch server/db.json --port 5000",
     "export": "next export",
     "predeploy": "npm run build && npm run export",
     "deploy:local": "npx serve out -p 3000"
